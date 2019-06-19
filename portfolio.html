@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BORAM</title>
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Indie+Flower|Nanum+Gothic|Noto+Serif+KR:200&display=swap" rel="stylesheet">
+	<style>
+			*{
+				box-sizing:border-box;
+			}
+		body{
+				margin:0;
+				padding:0;
+		}
+		.navbar{
+			height:80px;
+			line-height: 80px;
+			background-color: #27282D;
+			position: fixed;
+			left:0px;
+			right: 0px;
+			top:0px;
+			/*box-shadow: 0px 0px 5px 5px rgb(130,130,130, 0.5);*/
+			
+			
+		}
+		.navbar img{
+			height:60px;
+			margin-left:30px;
+			vertical-align: middle;
+			display:inline-block;
+			line-height: normal;
+			margin-bottom: 8px;
+
+		}
+/*		.navbar p{
+			color:rgb(85,85,85);
+			font-weight: bold;
+			letter-spacing: 1.6px;
+	        font-family: 'Roboto', sans-serif;
+	        display: inline;
+	        vertical-align: middle;
+	        font-size: 16px;
+		}*/
+		.menu{
+			float:right;
+			vertical-align: middle;
+			display:inline-block;
+			line-height: normal;
+		    margin-top: 28px;
+			/*margin-right: 30px;*/
+
+		}
+		.menu li{
+			float:left;
+			padding-right: 80px;
+			list-style: none;
+			vertical-align: middle;
+			font-family: 'Dosis', sans-serif;
+			
+			/*margin-right: 30px;*/
+		}
+		.menu li a{
+			text-decoration: none;
+			color:#E5E5E5;
+			font-size: 18px;
+			
+
+		}
+		.menu li a:hover{
+			border-bottom: 2px solid rgb(255,188,0);
+			
+		} 
+		.back{
+			background-color: #1D1C21 ;
+			width:100%;
+			height:2500px;
+			margin-top: 80px;
+		}
+		.line{
+			height:70px;
+			width:0px;
+			border-right: :0px;
+			color:rgb(255,188,0);
+			border:thin solid #FFF8E6 ;
+
+		}
+		.line2{
+			height:70px;
+			width:0px;
+			border-right: :0px;
+			border:thin solid #fff8e6;
+			margin-left: 1070px;
+			margin-top: 100px;
+		}
+
+		.now{
+			border-bottom: 2px solid rgb(255,188,0);
+		} 
+		.app{
+
+		}
+
+		.back h1{
+			font-size: 60px;
+			font-family: 'Dosis', sans-serif;
+			color:rgb(255,188,0);
+			text-align: center;
+			letter-spacing: 6px;
+			padding:0;
+
+		}
+		.info{
+			color:#FFF8E6;
+			font-size: 20px;
+			font-family: 'Nanum Gothic', sans-serif;
+			text-align: center;
+		}
+		.app{
+			border-radius: 40px;
+			width:700px;
+			margin-left: 300px;
+			margin-top: 50px;
+			float: left;
+			margin-right: 50px;
+
+		}
+		.appd{
+			font-family: 'Dosis', sans-serif;
+			font-size: 45px;
+			color:#FFF8E6;
+			margin-top: 250px;
+			float: both;
+		}
+		.appinfo{
+			font-size: 22px;
+			font-family: 'Nanum Gothic', sans-serif;
+			color:#FFF8E6;
+            width:500px;
+            display: inline-block;
+            text-align: justify;
+            line-height: 35px;
+            margin: 0;
+            clear: right;
+        }
+        .more{
+        	border-radius: 35px;
+        	background-color: #FFF8e6;
+        	font-size: 28px;
+        	color:#1D1C21;
+        	font-family: 'Dosis', sans-serif;
+        	text-decoration: none;
+        	padding:2px 35px;
+        	clear: both;
+        	
+        }
+        .sumbi{
+        	border-radius: 40px;
+			width:700px;
+			float: right;
+			margin-right: 300px;
+			margin-top: 50px;
+        }
+        .sumbis{
+        	font-family: 'Dosis', sans-serif;
+			font-size: 45px;
+			color:#FFF8E6;
+			margin-top: 200px;
+			float: left;
+			margin-left:500px;
+        }
+        .sumbiinfo{
+        	font-size: 22px;
+			font-family: 'Nanum Gothic', sans-serif;
+			color:#FFF8E6;
+            width:500px;
+            display: inline-block;
+            line-height: 35px;
+            margin: 0;
+            clear: right;
+            margin-left:350px;
+            text-align: justify;            
+        }
+        .more2{
+        	border-radius: 35px;
+        	background-color: #FFF8e6;
+        	font-size: 28px;
+        	color:#1D1C21;
+        	font-family: 'Dosis', sans-serif;
+        	text-decoration: none;
+        	padding:2px 35px;
+        	clear: both;
+        	margin-left: 720px;
+        	
+        }
+        .footer{
+			background-color: #fff8e6;
+			width: 100%;
+			height: 300px;
+			float: left;
+		}
+		.thank{
+			color:#1D1C21;
+			font-size: 40px;
+			font-family: 'Dosis', sans-serif;
+			text-align: center;
+		}
+		.copy{
+			font-size: 15px;
+			color:#1D1C21;
+			font-family: 'Nanum Gothic', sans-serif;
+			text-align: center;
+			margin-top: 50px;
+		}
+		.footer img{
+	
+			height:70px;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+    </style>
+</head>
+<body>
+  <div class="navbar ">
+		<img src="https://i.postimg.cc/66jP0fK6/1-02.jpg" >
+	
+		<ul class="menu">
+			<li><a href="boram.html">HOME</a></li>
+			<li><a href="boram.html">ABOUT ME</a></li>
+			<li><a class="now" href="#">PORTFOLIO</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+
+	</div>
+	<div class="back">
+		<hr class="line">
+		<h1>Portfolio</h1>
+		<!-- <hr class="line2"> -->
+		<p class="info">Photoshop, illustraitor, Processing</p>
+
+		<img class="app" src="https://i.postimg.cc/cLjZQdkT/sads.jpg">
+		<p class="appd"><b>APP Design</b></p>
+		<p class="appinfo">헤어샵 에약 뿐만 아니라 헤어스타일 매칭까지 가능한'헤어픽'이라는 어플을 디자인했습니다. 꾸미는것을 좋아하는 주타겟층을 고려하여 화려하고 유니크한 색상을 사용했고,
+	    심플하고 미니멀한 구성으로 어플을 디자인 했습니다.</p><br><br><br>
+	    <a class="more" href="portsub.html"><b>More</b></a>
+
+	    <hr class="line2">
+        
+        <p class="sumbis"><b>Sumbi Island Game</b></p>
+        <img class="sumbi"src="https://i.postimg.cc/sXvYrncT/wewrgf.jpg">
+        <p class="sumbiinfo">프로세싱 프로그램을 통해 숨비아일랜드라는 게임을 제작하였습니다. 숨비아일랜드는 제주도 해녀캐릭터인 '숨비'를 모티브로한 게임으로 이 게임은  바다, 환경보호의 경각심을 일깨우고 제주도 해녀를 널리 알리는 역할을 합니다.  </p><br><br><br>
+	     <a class="more2" href="portsub2.html"><b>More</b></a>
+
+	     <hr class="line2">
+	     <img class="app" src="https://i.postimg.cc/NG8Fp3RB/ersdhfgh.jpg">
+		<p class="appd"><b>2D Graphic</b></p>
+		<p class="appinfo">대외활동이나 인턴십 활동을 통해 경험한 2D 위주의 실무 작업들을 모았습니다. 카드뉴스부터 포스터같은 그래픽디자인을 다양하게 담아냈습니다. </p><br><br><br>
+	    <a class="more" href="portsub3.html"><b>More</b></a>
+
+
+	</div>
+	<div class="footer">
+    	<p class="thank">Tnank you for your visiting !</p>
+    	<img src="https://i.postimg.cc/rp6jYCcB/02.png">
+    	<p class="copy">ⓒ2019 All Rights Reserved. Boram Jeong</p>
+    </div>
+</body>
+</html>
